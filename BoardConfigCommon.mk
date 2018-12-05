@@ -38,9 +38,6 @@ TARGET_SCREEN_HEIGHT := 1280
 # Build
 BLOCK_BASED_OTA := true
 
-# Extended Filesystem Support
-TARGET_EXFAT_DRIVER := sdfat
-
 # HIDL
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 
