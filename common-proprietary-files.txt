@@ -68,7 +68,6 @@ lib/libarcsoft_picaction.so:vendor/lib/libarcsoft_picaction.so
 lib/libarcsoft_sensorndk.so:vendor/lib/libarcsoft_sensorndk.so
 lib/libarcsoft_skin_soften.so:vendor/lib/libarcsoft_skin_soften.so
 lib/libhdcp2.so:vendor/lib/libhdcp2.so
-lib/libWVphoneAPI.so:vendor/lib/libWVphoneAPI.so
 lib/libAfSingle.so:vendor/lib/libAfSingle.so
 lib/libacdapi_clb.so:vendor/lib/libacdapi_clb.so
 vendor/lib/C08QT_libchromatix_imx175_common.so
@@ -234,6 +233,10 @@ vendor/lib/libril-qcril-hook-oem.so|6a73ed46f4fbcb283eea5fb44b24a7d14522bfe5
 bin/ds_fmc_appd:vendor/bin/ds_fmc_appd|80eb4cd64d23a82a9a8c2aeafa9128d5e8158bdd
 vendor/lib/libdsnetutils.so|bf7097980412a364c941aefcadfbe89066fdecf1
 vendor/lib/libdsucsd.so|1f739bcb91330edb307329f851f031d56723672f
+
+# Radio - pinned to G900FDXXS1BPC3_G900FDOJV1BOI1_XSG
+lib/libsec-ril.so:vendor/lib/libsec-ril.so|584d767135810394577caca865660638f348caa1
+lib/libsec-ril-dsds.so:vendor/lib/libsec-ril-dsds.so|a7d7c966d9545f5e14cd0f5140a31d651c6f1b26
 
 # Sensors
 lib/hw/sensors.msm8226.so:vendor/lib/hw/sensors.vendor.msm8226.so
