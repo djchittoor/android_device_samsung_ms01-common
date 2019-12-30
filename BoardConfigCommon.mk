@@ -16,12 +16,12 @@
 # inherit from common msm8226
 -include device/samsung/msm8226-common/BoardConfigCommon.mk
 
-COMMON_PATH := device/samsung/s3ve3g-common
+COMMON_PATH := device/samsung/ms01-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := s3ve3g,s3ve3gds,s3ve3gjv,s3ve3gxx
+TARGET_OTA_ASSERT_DEVICE := ms01,ms013g,ms01lte
 
 # Audio
 USE_CUSTOM_AUDIO_POLICY := 1
@@ -112,4 +112,4 @@ endif
 TARGET_USE_SDCLANG := true
 
 # inherit from the proprietary version
--include vendor/samsung/s3ve3g-common/BoardConfigVendor.mk
+-include vendor/samsung/ms01-common/BoardConfigVendor.mk
