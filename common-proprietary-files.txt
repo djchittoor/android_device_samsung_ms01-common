@@ -42,85 +42,90 @@ bin/hci_qcomm_init:vendor/bin/hci_qcomm_init|e78812bdcf2ea3ac4352d3e5ffaae8a9223
 vendor/lib/libbtnv.so|2061b485bc848df502cf6d009e6d59781ef49768
 
 # Camera
-bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
-lib/E08QL_libTsAe.so:vendor/lib/E08QL_libTsAe.so
-lib/E08QL_libTsAf.so:vendor/lib/E08QL_libTsAf.so
-lib/E08QL_libTs_J_Accm.so:vendor/lib/E08QL_libTs_J_Accm.so
-lib/E08QL_libTs_J_Awb.so:vendor/lib/E08QL_libTs_J_Awb.so
+lib/hw/camera.msm8226.so:vendor/lib/hw/camera.vendor.msm8226.so
 lib/libarcsoft_flawlessface.so:vendor/lib/libarcsoft_flawlessface.so
 lib/libarcsoft_night_shot.so:vendor/lib/libarcsoft_night_shot.so
 lib/libarcsoft_panorama_burstcapture.so:vendor/lib/libarcsoft_panorama_burstcapture.so
 lib/libarcsoft_picaction.so:vendor/lib/libarcsoft_picaction.so
 lib/libarcsoft_sensorndk.so:vendor/lib/libarcsoft_sensorndk.so
 lib/libarcsoft_skin_soften.so:vendor/lib/libarcsoft_skin_soften.so
-lib/libmmcamera2_stats_algorithm.so:vendor/lib/libmmcamera2_stats_algorithm.so
-lib/libmmcamera_cac.so:vendor/lib/libmmcamera_cac.so
-lib/libmmcamera_cac2_lib.so:vendor/lib/libmmcamera_cac2_lib.so
-lib/libmmcamera_fidelix_eeprom.so:vendor/lib/libmmcamera_fidelix_eeprom.so
-lib/libmmcamera_interface.so:vendor/lib/libmmcamera_interface.so
 lib/libmmcamera_wavelet_lib.so:vendor/lib/libmmcamera_wavelet_lib.so
-lib/libmmjpeg_interface.so:vendor/lib/libmmjpeg_interface.so
-lib/libhdcp2.so:vendor/lib/libhdcp2.so
-lib/hw/camera.msm8226.so:vendor/lib/hw/camera.vendor.msm8226.so
+lib/E08QL_libTsAe.so:vendor/lib/E08QL_libTsAe.so
+lib/E08QL_libTsAf.so:vendor/lib/E08QL_libTsAf.so
+lib/E08QL_libTs_J_Accm.so:vendor/lib/E08QL_libTs_J_Accm.so
+lib/E08QL_libTs_J_Awb.so:vendor/lib/E08QL_libTs_J_Awb.so
+lib/libmmcamera2_stats_algorithm.so:vendor/lib/libmmcamera2_stats_algorithm.so
+lib/libmmcamera_fidelix_eeprom.so:vendor/lib/libmmcamera_fidelix_eeprom.so
+vendor/lib/libmmcamera2_iface_modules.so
+vendor/lib/libmmcamera2_imglib_modules.so
+vendor/lib/libmmcamera2_isp_modules.so
+vendor/lib/libmmcamera2_sensor_modules.so
+vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/liboemcamera.so
 vendor/lib/libactuator_ak7345_camcorder.so
 vendor/lib/libactuator_ak7345_camera.so
 vendor/lib/libactuator_dw9804_camcorder.so
 vendor/lib/libactuator_dw9804_camera.so
-vendor/lib/libHevcSwDecoder.so
-vendor/lib/libjpegehw.so
-vendor/lib/libqomx_core.so
-vendor/lib/libmm-abl.so
-vendor/lib/libmm-abl-oem.so
-vendor/lib/libmmcamera2_c2d_module.so
+vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_image_stab.so
+vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_s5k6a3yx.so
 vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_pproc_modules.so
+vendor/lib/libmmipl.so
+vendor/lib/libqomx_jpegdec.so
+vendor/lib/libqomx_jpegenc.so
+
+# Back sensor
+lib/E08QL_libTsAe.so:vendor/lib/E08QL_libTsAe.so
+lib/E08QL_libTsAf.so:vendor/lib/E08QL_libTsAf.so
+lib/E08QL_libTs_J_Accm.so:vendor/lib/E08QL_libTs_J_Accm.so
+lib/E08QL_libTs_J_Awb.so:vendor/lib/E08QL_libTs_J_Awb.so
+lib/libmmcamera2_stats_algorithm.so:vendor/lib/libmmcamera2_stats_algorithm.so
+lib/libmmcamera_fidelix_eeprom.so:vendor/lib/libmmcamera_fidelix_eeprom.so
 vendor/lib/libmmcamera2_iface_modules.so
 vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_pproc_modules.so
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/libmmcamera2_vpe_module.so
-vendor/lib/libmmcamera2_wnr_module.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_image_stab.so
-vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_s5k4h5yb.so
-vendor/lib/libmmcamera_s5k6a3yx.so
-vendor/lib/libmm-color-convertor.so
-vendor/lib/libmm-hdcpmgr.so
-vendor/lib/libmmhttpstack.so
-vendor/lib/libmmiipstreammmihttp.so
-vendor/lib/libmmipl.so
-vendor/lib/libmmipstreamaal.so
-vendor/lib/libmmipstreamnetwork.so
-vendor/lib/libmmipstreamsourcehttp.so
-vendor/lib/libmmipstreamutils.so
-vendor/lib/libmmjpeg.so
-vendor/lib/libmmosal.so
-vendor/lib/libmmparser.so
-vendor/lib/libmmqjpeg_codec.so
-vendor/lib/libmmQSM.so
-vendor/lib/libmmQTA.so
-vendor/lib/libmmrtpdecoder.so
-vendor/lib/libmmrtpencoder.so
-vendor/lib/libmmwfdinterface.so
-vendor/lib/libmmwfdsinkinterface.so
 vendor/lib/liboemcamera.so
-vendor/lib/libqomx_jpegdec.so
-vendor/lib/libqomx_jpegenc.so
-vendor/lib/libjpegdhw.so
+
+# Camera - Pinned to Samsung Galaxy S5 Mini G800HXXU1CRJ1_G800HXEO1CRJ1
+bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon|08512011bb846408e021e9516554e69c8d7372c7
+vendor/lib/libjpegdhw.so|44db5419047fbbebb345fdc7b1bd152fcc772dcf
+vendor/lib/libjpegehw.so|442b8ad502c44d69ff781f047104df20b4c1b67e
+vendor/lib/libmm-color-convertor.so|70e0a0e5e40c75cb9eccf88a85f42721968b8f00
+vendor/lib/libmmcamera2_c2d_module.so|30714e50e55bb00ec67d3efbf4e964d781628a99
+vendor/lib/libmmcamera2_vpe_module.so|e47c68253e61a053734ed0d8974d6a617f83830e
+vendor/lib/libmmcamera2_wnr_module.so|ee2a776f58d144a0756d6787ebce35c7e694c7c6
+lib/libmmcamera_cac.so:vendor/lib/libmmcamera_cac.so|05acdf927036e734b741baf258f3b9d2187a4475
+lib/libmmcamera_cac2_lib.so:vendor/lib/libmmcamera_cac2_lib.so|9a3a82a3ad38f58315125159aa24fd55b64a42d0
+vendor/lib/libmmcamera_hdr_gb_lib.so|05e76a4d464d5dbc74fbd55ffbe6879feb244045
+vendor/lib/libmmcamera_interface.so|2aed89c5bfe99d98c0357c0a10b1b397dc6f5053
+vendor/lib/libmmjpeg.so|a9eba95cb694bdf416cb562685cda2a44fd70f36
+vendor/lib/libmmjpeg_interface.so|20b3ae264db08802a6eba7e5fffb039004321bb0
+vendor/lib/libmmqjpeg_codec.so|d77913045f9342e27c803533b19078578dc76cb0
+vendor/lib/libqomx_core.so|586a1a199c012c5ee58096bcb786251041a5adb3
+vendor/lib/libHevcSwDecoder.so|ed6237ce5b3550a6ab677c0fdf76d9ea57e51221
+vendor/lib/libOmxMux.so|5241c2f63bd999602665b54b181c03950a2cc3f6
 
 # Camera Chromatix
 lib/libAfSingle.so:vendor/lib/libAfSingle.so
-lib/libchromatix_s5k6a3yx_smart_stay.so:vendor/lib/libchromatix_s5k6a3yx_smart_stay.so
-lib/libchromatix_s5k6a3yx_vt.so:vendor/lib/libchromatix_s5k6a3yx_vt.so
-lib/libchromatix_s5k6a3yx_vt_hd.so:vendor/lib/libchromatix_s5k6a3yx_vt_hd.so
 lib/libTsAe.so:vendor/lib/libTsAe.so
 lib/libTsAf.so:vendor/lib/libTsAf.so
 lib/libTs_J_Accm.so:vendor/lib/libTs_J_Accm.so
 lib/libTs_J_Awb.so:vendor/lib/libTs_J_Awb.so
-vendor/lib/E08QL_libchromatix_s5k4h5yb_common.so
+lib/libchromatix_s5k6a3yx_smart_stay.so:vendor/lib/libchromatix_s5k6a3yx_smart_stay.so|ab927da7f7634a8bd2e550dc857b041ea08b451e
+lib/libchromatix_s5k6a3yx_vt.so:vendor/lib/libchromatix_s5k6a3yx_vt.so|001371a4cb5f9eb86f207a93ebcc6b1c76b085ea
+lib/libchromatix_s5k6a3yx_vt_hd.so:vendor/lib/libchromatix_s5k6a3yx_vt_hd.so|d1841bbc5a221f65d8d3263371b8b696c31d9f33
+vendor/lib/libchromatix_s5k6a3yx_common.so|5d76b369f25f3dd41796687e97ecde572a2dbd5b
+vendor/lib/libchromatix_s5k6a3yx_default_video.so|4dca0ec84ab7b1ef07af40f86cadfb6d92450125
+vendor/lib/libchromatix_s5k6a3yx_preview.so|fa3c6174f2351568f61256dd45d29ba43085d74d
+vendor/lib/libchromatix_s5k6a3yx_snapshot.so|e69c9bfef3fc042cc12954ec77b6544ff8544e38
+vendor/lib/libchromatix_s5k6a3yx_video_hd.so|1458657bc9414a2a0c613d50f9278ce430a6440e
+vendor/lib/libchromatix_s5k6a3yx_zsl.so|37e10556d024e4f4fc0f6e8ecee47c84fd7f49d7
+vendor/lib/E08QL_libchromatix_s5k4h5yb_common.so|1da243da6be7c2ea88c3c2421309a18ebf893d17
 vendor/lib/E08QL_libchromatix_s5k4h5yb_common_res0.so
 vendor/lib/E08QL_libchromatix_s5k4h5yb_common_res1.so
 vendor/lib/E08QL_libchromatix_s5k4h5yb_default_video.so
@@ -131,12 +136,6 @@ vendor/lib/E08QL_libchromatix_s5k4h5yb_snapshot.so
 vendor/lib/E08QL_libchromatix_s5k4h5yb_video_hd.so
 vendor/lib/E08QL_libchromatix_s5k4h5yb_zsl.so
 vendor/lib/E08QL_libchromatix_s5k4h5yb_zslshot.so
-vendor/lib/libchromatix_s5k6a3yx_common.so
-vendor/lib/libchromatix_s5k6a3yx_default_video.so
-vendor/lib/libchromatix_s5k6a3yx_preview.so
-vendor/lib/libchromatix_s5k6a3yx_snapshot.so
-vendor/lib/libchromatix_s5k6a3yx_video_hd.so
-vendor/lib/libchromatix_s5k6a3yx_zsl.so
 
 # Camera firmware
 etc/E08QL_s5k4h5yb_module_info.xml
@@ -178,9 +177,9 @@ bin/radish:vendor/bin/radish|5c54cb3d5c3472b6bb8f535817eeb55852b34ef0
 vendor/lib/libOmxAacDec.so|9d3a2a498fa740be2a32c336a2dc1a911decd50b
 vendor/lib/libOmxAmrwbplusDec.so|54ebb32cf1f71ca1fe8824176c8c4154a9ee120f
 vendor/lib/libOmxEvrcDec.so|3c31f3d7b420db0076dfb35eb4cbc3efa5160ab0
-vendor/lib/libOmxMux.so
 vendor/lib/libOmxQcelp13Dec.so|05392036cf8981a260b91991c306407b02afdcb1
 vendor/lib/libOmxWmaDec.so|1b96f549a54660218c1459cf7133d2a5632ca657
+vendor/lib/libmmosal.so|20af45456f1f588cc97e5278b3d273c8070eab2a
 
 # Perf - Pinned to Samsung Galaxy S5 Mini G800HXXU1CRJ1_G800HXEO1CRJ1
 vendor/lib/libqc-opt.so|86b2577d54bafa497601ff6b6c4159b210e55fae
@@ -217,7 +216,6 @@ lib/libatparser.so:vendor/lib/libatparser.so
 lib/libcordon.so:vendor/lib/libcordon.so
 lib/libfactoryutil.so:vendor/lib/libfactoryutil.so
 lib/libomission_avoidance.so:vendor/lib/libomission_avoidance.so
-etc/plmn_se13.bin
 
 # Radio - Pinned to G900FXXS1BPCL_G900FOXA1BOJ1_BTU
 bin/efsks:vendor/bin/efsks|2c366ac7ab878068c77e5598c411a48cf47b056a
@@ -238,16 +236,11 @@ lib/libsec-ril.so:vendor/lib/libsec-ril.so|584d767135810394577caca865660638f348c
 lib/libsec-ril-dsds.so:vendor/lib/libsec-ril-dsds.so|a7d7c966d9545f5e14cd0f5140a31d651c6f1b26
 
 # Sensors
-etc/alp_cal.dat
-etc/sensors.dat
-etc/param.dat
 lib/hw/sensors.msm8226.so:vendor/lib/hw/sensors.vendor.msm8226.so
 lib/libyasalgo.so:vendor/lib/libyasalgo.so
-lib/libacdapi_clb.so:vendor/lib/libacdapi_clb.so
 
 # Time services
 -app/TimeService/TimeService.apk|a1c0da0af9f3c3757a8fe04520011e2137def584
 bin/time_daemon:vendor/bin/time_daemon|b55e8b7aa5e1a4ad71976da6a607762f8762585a
 vendor/lib/libTimeService.so|aa3036dee5a6c74b9d32a93ab13cf1ec04aa99c4
 -vendor/lib/libtime_genoff.so|ffb08547c733760c151b08977a04694b4bc84df1
-
