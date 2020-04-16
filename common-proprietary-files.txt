@@ -241,6 +241,7 @@ lib/libsec-ril-dsds.so:vendor/lib/libsec-ril-dsds.so|a7d7c966d9545f5e14cd0f5140a
 # Sensors
 lib/hw/sensors.msm8226.so:vendor/lib/hw/sensors.vendor.msm8226.so
 lib/libyasalgo.so:vendor/lib/libyasalgo.so
+lib/:vendor/lib/libacdapi_clb.so
 
 # Time services
 -app/TimeService/TimeService.apk|a1c0da0af9f3c3757a8fe04520011e2137def584
