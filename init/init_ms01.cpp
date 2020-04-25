@@ -65,15 +65,15 @@ void init_target_properties()
         /* ms01ltexx */
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/ms01ltexx/ms01lte:4.4.2/KOT49H/G7105XXUBNI2:user/release-keys");
         property_override("ro.build.description", "ms01ltexx-user 4.4.2 KOT49H G7105XXUBNI2 release-keys");
-        property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-G7105");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "ms01lte");
+        property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-G7105");
+        property_override_dual("ro.product.device", "ro.product.vendor.device", "ms01lte");
 	lte_properties();
     } else if (bootloader.find("G7102") == 0) {
         /* ms013gxx */
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/ms013gxx/ms013g:4.4.2/KOT49H/G7102XXUBOB1:user/release-keys");
         property_override("ro.build.description", "ms013gxx-user 4.4.2 KOT49H G7102XXUBOB1 release-keys");
-        property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-G7102");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "ms013g");
+        property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-G7102");
+        property_override_dual("ro.product.device", "ro.product.vendor.device", "ms013g");
         gsm_properties();
     } else {
         gsm_properties();
