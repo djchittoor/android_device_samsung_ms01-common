@@ -72,7 +72,7 @@ vendor/lib/libactuator_dw9804_camera.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_image_stab.so
 vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_s5k6a3yx.so
+vendor/lib/libmmcamera_s5k6a3yx.so|ede13951475afd0b8d8432f7d5746480324379ed
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_pproc_modules.so
 vendor/lib/libmmipl.so
