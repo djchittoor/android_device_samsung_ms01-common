@@ -1,6 +1,6 @@
 /*
    Copyright (c) 2016, The Linux Foundation. All rights reserved.
-   Copyright (c) 2017-2018, The LineageOS Project. All rights reserved.
+   Copyright (c) 2017-2020, The LineageOS Project. All rights reserved.
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
@@ -47,12 +47,6 @@ void lte_properties()
     property_set("ro.telephony.default_network", "9");
 }
 
-void gsm_properties()
-{
-    property_set("ro.telephony.default_network", "3");
-    property_set("telephony.lteOnGsmDevice", "0");
-}
-
 void init_target_properties()
 {
     std::string platform = GetProperty("ro.board.platform", "");
@@ -74,9 +68,9 @@ void init_target_properties()
         property_override("ro.build.description", "ms013gxx-user 4.4.2 KOT49H G7102XXUBOB1 release-keys");
         property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-G7102");
         property_override_dual("ro.product.device", "ro.product.vendor.device", "ms013g");
-        gsm_properties();
+        gsm_properties("3", "0");
     } else {
-        gsm_properties();
+        lte_properties();
     }     
 
     std::string device = GetProperty("ro.product.device", "");
