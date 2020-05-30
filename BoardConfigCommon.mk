@@ -102,8 +102,5 @@ ifeq ($(WITH_TWRP),true)
 -include $(COMMON_PATH)/twrp.mk
 endif
 
-# Use Snapdragon LLVM if available on build server
-TARGET_USE_SDCLANG := true
-
 # inherit from the proprietary version
 -include vendor/samsung/ms01-common/BoardConfigVendor.mk
