@@ -47,10 +47,6 @@ TARGET_INIT_VENDOR_LIB := libinit_msm8226
 TARGET_LIBINIT_MSM8226_DEFINES_FILE := $(COMMON_PATH)/init/init_ms01.cpp
 
 
-# FM
-BOARD_HAVE_QCOM_FM := true
-TARGET_QCOM_NO_FM_FIRMWARE := true 
-
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom msm_rtb.filter=0x37 

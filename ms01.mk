@@ -47,10 +47,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FlipFlap
 
-# FM
-PRODUCT_PACKAGES += \
-    FMRadio
-
 # IPv6 tethering
 PRODUCT_PACKAGES += \
     ebtables \
