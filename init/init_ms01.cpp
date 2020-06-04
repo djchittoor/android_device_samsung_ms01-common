@@ -54,9 +54,9 @@ void vendor_load_properties()
 	    
     } else if (bootloader.find("G7102") == 0) {
         /* ms013gxx */
-        property_override("ro.build.description", "ms013gxx-user 4.4.2 KOT49H G7102XXUBOB1 release-keys");        
+        property_override("ro.build.description", "ms013gxx-user 4.4.2 KOT49H G7102DDSBQF1 release-keys");        
         set_ro_product_prop("device", "ms013g");
-        set_ro_product_prop("fingerprint", "samsung/ms013gxx/ms013g:4.4.2/KOT49H/G7102XXUBOB1:user/release-keys");
+        set_ro_product_prop("fingerprint", "samsung/ms013gxx/ms013g:4.4.2/KOT49H/G7102DDSBQF1:user/release-keys");
         set_ro_product_prop("model", "SM-G7102");
         set_ro_product_prop("name", "ms013g");
         gsm_properties("3", "0");
